@@ -1,14 +1,12 @@
-header{
+h1{
     font-family: Helvetica;
     font-size: 100px;
     font-weight: bold;
     color: khaki;
     background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg');
     text-align: center;
-    background-position: centre; 
-    background-size: auto;
 }
-#brushes{
+h2.brushes{
     background-color: mediumspringgreen;
     font-family: Helvetica;
     font-size: 32px;
@@ -18,16 +16,30 @@ header{
     background-position: left;
     
 }
-.title h3{
+h3{
+    font-family: Helvetica;
     font-weight: bold;
+    text-align: left;
+    margin-left: -40px;
 }
-a, p{
+a{
   font-family: Helvetica;
-  font-weight: bold;
   color: blue;
-  text-align: left;
-  
+  font-weight: bold;
 }
 p{
-  color: black !important;
+  color: black;
+  font-family: Helvetica;
+  margin-left: -40px;
 }
+img{
+  margin-left: -40px;
+}
+h2.frames{
+  background-color: lightcoral;
+  font-family: Helvetica;
+  font-size: 32px;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+  background-position: left;
